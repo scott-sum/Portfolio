@@ -4237,6 +4237,10 @@ video {
   background-image: url('img/teal_mountain.png');
 }
 
+.bg-honeycomb {
+  background-image: url('img/honeycomb.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -11632,6 +11636,10 @@ video {
 
 .list-decimal {
   list-style-type: decimal;
+}
+
+.list-square {
+  list-style-type: square;
 }
 
 .m-0 {
@@ -35526,6 +35534,10 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
+  .sm\:bg-honeycomb {
+    background-image: url('img/honeycomb.jpg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -42921,6 +42933,10 @@ video {
 
   .sm\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .sm\:list-square {
+    list-style-type: square;
   }
 
   .sm\:m-0 {
@@ -66645,6 +66661,10 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
+  .md\:bg-honeycomb {
+    background-image: url('img/honeycomb.jpg');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -74040,6 +74060,10 @@ video {
 
   .md\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .md\:list-square {
+    list-style-type: square;
   }
 
   .md\:m-0 {
@@ -97764,6 +97788,10 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
+  .lg\:bg-honeycomb {
+    background-image: url('img/honeycomb.jpg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -105159,6 +105187,10 @@ video {
 
   .lg\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .lg\:list-square {
+    list-style-type: square;
   }
 
   .lg\:m-0 {
@@ -128883,6 +128915,10 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
+  .xl\:bg-honeycomb {
+    background-image: url('img/honeycomb.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -136278,6 +136314,10 @@ video {
 
   .xl\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .xl\:list-square {
+    list-style-type: square;
   }
 
   .xl\:m-0 {
@@ -160002,6 +160042,10 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
+  .\32xl\:bg-honeycomb {
+    background-image: url('img/honeycomb.jpg');
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -167397,6 +167441,10 @@ video {
 
   .\32xl\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .\32xl\:list-square {
+    list-style-type: square;
   }
 
   .\32xl\:m-0 {

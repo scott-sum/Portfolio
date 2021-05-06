@@ -21,8 +21,8 @@
                 </button>                   
                 <div class="absolute md:relative top-16 left-0 md:top-0 z-20 md:items-center md:flex flex-col md:flex-row md:space-x-6 w-full md:w-auto shadow-md rounded-lg md:rounded-none md:shadow-none
                  bg-white md:bg-transparent px-6 py-2 md:p-0" :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}"  @click.away="mobileMenuOpen = false"">
-                    <a href="#about" class="flex justify-end py-1 text-lg border rounded border-transparent hover:border-transparent hover:text-black hover:bg-white">About</a>
-                    <a href="#projects" class="flex justify-end py-1 text-lg border rounded border-transparent hover:border-transparent hover:text-black hover:bg-white">Projects</a>
+                    <a href="#about" class="flex justify-end py-1 text-xl border rounded border-transparent hover:border-transparent hover:text-black hover:bg-white">About</a>
+                    <a href="#projects" class="flex justify-end py-1 text-xl border rounded border-transparent hover:border-transparent hover:text-black hover:bg-white">Projects</a>
                     <div class="flex flex-row items-center justify-end mt-2">
                         <a href="mailto:scottsum@outlook.com" class="w-10 mr-4 transform hover:scale-125 transition duration-300 ease-in-out" title="E-mail"><img src="img/email.png"></a>
                         <a href="https://github.com/scott-sum" class="w-10 mr-4 transform hover:scale-125 transition duration-300 ease-in-out" title="Github" target="_blank"><img src="img/github.png"></a>
@@ -41,19 +41,39 @@
             </div>
         </div>
 
-        <div id="about" class="bg-blue-200 h-full">
+        <div id="about" class="bg-white h-full">
             <div class="flex flex-col lg:hidden">
                 <h1 class="flex justify-center font-bold text-4xl m-8">Hi, I'm Scott!</h1>
-                <img src="img/scott.JPEG" class="flex justify-center rounded-full m-auto w-40 h-40">
-                <p class="flex flex-wrap p-8 text-lg leading-relaxed">I'm currently a third year Computer Science student at the University of Waterloo. Previously, I worked as a Full Stack Developer at Kaleidescape
-                    and a Data Engineer at Index Exchange.<br><br>
-                    My goal with internships is to try different things and step out of my comfort zone. I love learning new things whether it be 
-                    technical skills or working in a team! <br><br>
-                    Currently, I am interested in machine learning, data science, big data, and cloud computing.<br><br>
-                    When I'm not coding/working, I like to workout, play basketball, learn to cook, 
-                    and spend time with friends and family.
-                </p>
-                <div class="flex flex-row flex-wrap justify-center mb-4">
+                <img src="img/scott.JPEG" class="flex justify-center rounded-full m-auto mb-8 w-40 h-40">
+                <p class="flex flex-wrap pl-12 text-lg leading-relaxed mb-12">Third year Computer Science student at the University of Waterloo</p>
+                <h3 class="font-bold flex flex-wrap pl-12 text-xl leading-relaxed mb-2">Work Experiences</h3>
+                <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-16 text-base leading-relaxed mb-12">
+                    <li>Data Engineer @ Index Exchange</li>
+                    <li>Software Engineer @ Kaleidescape</li>
+                    <li>Test Analyst @ Toronto Transit Commission</li>
+                </ul>
+                <p class="flex flex-wrap pl-12 text-lg leading-relaxed mb-12">My goal with internships is to try different things and step out of my comfort zone.
+                    <br>
+                    I love learning new things whether it be technical skills or working in a team!</p>                
+                <div class="flex flex-col">
+                    <h3 class="font-bold flex flex-wrap pl-12 text-xl leading-relaxed mb-2">Career Interests</h3>
+                    <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-16 text-base leading-relaxed mb-12">
+                        <li>Machine Learning</li>
+                        <li>Data Science</li>
+                        <li>Big Data</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col">
+                    <h3 class="font-bold flex flex-wrap pl-12 text-xl leading-relaxed mb-2">Other Interests</h3>
+                    <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-16 text-base leading-relaxed mb-12">
+                        <li>Basketball</li>
+                        <li>Fitness</li>
+                        <li>Cooking</li>
+                    </ul>
+                </div>
+                
+                <div class="flex flex-row flex-wrap justify-center mb-12">
                     <a href="mailto:scottsum@outlook.com" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="E-mail"><img src="img/email.png"></a>
                     <a href="https://github.com/scott-sum" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Github" target="_blank"><img src="img/github.png"></a>
                     <a href="https://drive.google.com/file/d/1zh0qfqlU72MJ25nKvVgMCQw68yani8px/view?usp=sharing" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Resume" target="_blank"><img src="img/resume.png"></a>
@@ -61,32 +81,53 @@
                 </div>
             </div>
             <div class="hidden lg:flex flex-row">
-                <div class="flex flex-col flex-wrap w-3/5">
-                    <h1 class="flex justify-center font-bold text-4xl m-8 mb-4">Hi, I'm Scott!</h1>                
-                    <p class="flex flex-wrap p-8 pl-12 text-lg xl:text-2xl leading-relaxed">I'm currently a third year Computer Science student at the University of Waterloo. Previously, I worked as a Full Stack Developer at Kaleidescape
-                        and a Data Engineer at Index Exchange.<br><br>
-                        My goal with internships is to try different things and step out of my comfort zone. I love learning new things whether it be 
-                        technical skills or working in a team! <br><br>
-                        Currently, I am interested in machine learning, data science, big data, and cloud computing.<br><br>
-                        When I'm not coding/working, I like to workout, play basketball, learn to cook, 
-                        and spend time with friends and family.
-                    </p>
-                    <div class="flex flex-row flex-wrap justify-center mb-4">
+                <div class="flex flex-col flex-wrap w-3/5 m-auto">
+                    <h1 class="flex justify-center font-bold text-6xl m-8 mb-12">Hi, I'm Scott!</h1>                            
+                    <p class="flex flex-wrap pl-12 text-lg xl:text-xl leading-relaxed mb-12">Third year Computer Science student at the University of Waterloo</p>
+                    <h3 class="font-bold flex flex-wrap pl-12 text-xl xl:text-2xl leading-relaxed mb-2"">Work Experiences</h3>
+                    <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-16 text-lg xl:text-xl leading-relaxed mb-12">
+                        <li>Data Engineer @ Index Exchange</li>
+                        <li>Software Engineer @ Kaleidescape</li>
+                        <li>Test Analyst @ Toronto Transit Commission</li>
+                    </ul>
+                    <p class="flex flex-wrap pl-12 text-lg xl:text-xl leading-relaxed mb-12">My goal with internships is to try different things and step out of my comfort zone.
+                        <br>
+                        I love learning new things whether it be technical skills or working in a team!</p>
+                    <div class="flex flex-row space-x-16 pl-12 pr-12 mb-16">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold flex flex-wrap text-xl xl:text-2xl mb-2">Career Interests</h3>
+                            <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-4 text-lg xl:text-xl leading-relaxed"">
+                                <li>Machine Learning</li>
+                                <li>Data Science</li>
+                                <li>Big Data</li>
+                                <li>Cloud Computing</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3 class="font-bold flex flex-wrap text-xl xl:text-2xl mb-2">Other Interests</h3>
+                            <ul class="flex flex-col list-inside list-disc flex flex-wrap pl-4 text-lg xl:text-xl leading-relaxed"">
+                                <li>Basketball</li>
+                                <li>Fitness</li>
+                                <li>Cooking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-center mb-12">
                         <a href="mailto:scottsum@outlook.com" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="E-mail"><img src="img/email.png"></a>
                         <a href="https://github.com/scott-sum" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Github" target="_blank"><img src="img/github.png"></a>
                         <a href="https://drive.google.com/file/d/1zh0qfqlU72MJ25nKvVgMCQw68yani8px/view?usp=sharing" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Resume" target="_blank"><img src="img/resume.png"></a>
                         <a href="https://linkedin.com/in/scottsum" class="mr-4 p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Linkedin" target="_blank"><img src="img/linkedin.png"></a>
                     </div>
                 </div>
-                <img src="img/scott.JPEG" class="flex justify-center rounded-full m-auto w-60 h-60 xl:w-80 xl:h-80">                
+                <img src="img/scott.JPEG" class="flex justify-center rounded-full m-auto w-60 h-60 xl:w-96 xl:h-96">                
 
             </div>
         </div>
         <div id="projects" class="flex flex-col bg-teal-mountain bg-no-repeat bg-cover h-full">
             <div class="flex flex-col flex-wrap py-6 px-0 mb-auto xl:hidden">
-                <h1 class="flex justify-center text-4xl font-bold text-black mb-8">Projects</h1>
-                <div class="flex flex-col px-6">
-                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-8">
+                <h1 class="flex justify-center font-bold text-4xl lg:text-6xl m-8 lg:mb-12">Projects</h1>
+                <div class="flex flex-col px-6 md:px-24">
+                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-20">
                         <h2 class="flex justify-center font-bold text-xl mb-4">My Movie List</h2>
                         <ul class="text-md lg:text-lg md:px-8 lg:px-12">
                             <li class="mb-1">A web application where users can search for movies and see data visualizations on their movie activity</li>
@@ -98,7 +139,7 @@
                             <a href="https://github.com/scott-sum/My-Movie-List" class="p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Github"><img src="img/github.png" target="_blank"></a>
                         </div>                        
                     </div>
-                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-8">
+                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-20">
                         <h2 class="flex justify-center font-bold text-xl mb-4">Dragon Glider Unity Game</h2>
                         <p class="mb-2 md:px-8 lg:px-12 lg:text-lg">A 2D platform game hosted on simmer.io built with help of a Unity tutorial</p>
                         <img src="img/dragon_game.png" class="w-11/12 h-2/5 m-auto my-4 transform hover:scale-125 transition duration-700 ease-in-out border rounded">
@@ -107,7 +148,7 @@
                             <a href="https://github.com/scott-sum/DragonUnityGame" class="p-2 transform hover:scale-125 transition duration-300 ease-in-out" title="Github"><img src="img/github.png" target="_blank"></a>
                         </div>                        
                     </div>
-                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-8">
+                    <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-20">
                         <h2 class="flex justify-center font-bold text-xl mb-4">Sorcery Game</h2>
                         <ul class="text-md lg:text-lg md:px-8 lg:px-12">
                             <li class="mb-1">A game like Hearthstone to be played on the terminal</li>
@@ -126,9 +167,9 @@
 
             <!--for XL only-->
             <div class="hidden xl:flex flex-col flex-wrap py-6 px-0 mb-auto">
-                <h1 class="flex justify-center text-4xl font-bold text-black m-8">Projects</h1>
-                <div class="flex flex-col px-6">
-                    <div class="flex flex-row justify-between space-x-6">
+                <h1 class="flex justify-center font-bold text-6xl m-8 mb-12">Projects</h1>
+                <div class="flex flex-col px-28">
+                    <div class="flex flex-row justify-between space-x-28 mb-12">
                         <div class="flex flex-col flex-wrap bg-white w-full border-transparent border-white rounded-lg p-6 m-auto mb-8">
                             <h2 class="flex justify-center font-bold text-xl mb-4">My Movie List</h2>
                             <ul class="text-lg px-8">
@@ -152,7 +193,7 @@
                         </div>
                     </div>
                     
-                    <div class="flex flex-row justify-between space-x-6">
+                    <div class="flex flex-row justify-between space-x-28">
                         <div class="flex flex-col flex-wrap w-full bg-white border-transparent border-white rounded-lg p-6 m-auto mb-8">
                             <h2 class="flex justify-center font-bold text-xl mb-4">Sorcery Game</h2>
                             <ul class="text-lg px-8">
