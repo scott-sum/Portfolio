@@ -6,7 +6,7 @@ module.exports = {
       backgroundImage: (theme) => ({
         "mountain": "url('img/mountain.jpg')",
         "teal-mountain": "url('img/teal_mountain.png')",
-        "honeycomb": "url('img/honeycomb.jpg')"
+        "red": "url('img/red.jpg')"
       }),
     },
     listStyleType: {

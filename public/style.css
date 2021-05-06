@@ -4237,8 +4237,8 @@ video {
   background-image: url('img/teal_mountain.png');
 }
 
-.bg-honeycomb {
-  background-image: url('img/honeycomb.jpg');
+.bg-red {
+  background-image: url('img/red.jpg');
 }
 
 .from-transparent {
@@ -35534,8 +35534,8 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
-  .sm\:bg-honeycomb {
-    background-image: url('img/honeycomb.jpg');
+  .sm\:bg-red {
+    background-image: url('img/red.jpg');
   }
 
   .sm\:from-transparent {
@@ -66661,8 +66661,8 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
-  .md\:bg-honeycomb {
-    background-image: url('img/honeycomb.jpg');
+  .md\:bg-red {
+    background-image: url('img/red.jpg');
   }
 
   .md\:from-transparent {
@@ -97788,8 +97788,8 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
-  .lg\:bg-honeycomb {
-    background-image: url('img/honeycomb.jpg');
+  .lg\:bg-red {
+    background-image: url('img/red.jpg');
   }
 
   .lg\:from-transparent {
@@ -128915,8 +128915,8 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
-  .xl\:bg-honeycomb {
-    background-image: url('img/honeycomb.jpg');
+  .xl\:bg-red {
+    background-image: url('img/red.jpg');
   }
 
   .xl\:from-transparent {
@@ -160042,8 +160042,8 @@ video {
     background-image: url('img/teal_mountain.png');
   }
 
-  .\32xl\:bg-honeycomb {
-    background-image: url('img/honeycomb.jpg');
+  .\32xl\:bg-red {
+    background-image: url('img/red.jpg');
   }
 
   .\32xl\:from-transparent {
